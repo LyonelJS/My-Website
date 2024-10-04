@@ -127,13 +127,13 @@ color: gray;
 }
 
 .caption{
-    display: flex; /* Hide text by default */
-    position: absolute; /* Position it relative to the background container */
-    bottom: 100px; /* Position slightly above the bottom */
+    display: flex; 
+    position: absolute; 
+    bottom: 100px; 
     left: 50%;
-    transform: translateX(-50%); /* Center it horizontally */
-    background-color: white; /* Semi-transparent background */
-    color: black; /* Text color */
+    transform: translateX(-50%); 
+    background-color: white; 
+    color: black; 
     padding: 10px;
     border-radius: 10px;
 }
@@ -204,13 +204,13 @@ color: gray;
 }
 
 .caption2{
-    display: flex; /* Hide text by default */
-    position: absolute; /* Position it relative to the background container */
-    bottom: 100px; /* Position slightly above the bottom */
+    display: flex; 
+    position: absolute; 
+    bottom: 100px; 
     left: 50%;
-    transform: translateX(-50%); /* Center it horizontally */
-    background-color: white; /* Semi-transparent background */
-    color: black; /* Text color */
+    transform: translateX(-50%); 
+    background-color: white; 
+    color: black; 
     padding: 10px;
     border-radius: 10px;
 }
