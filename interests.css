@@ -1,0 +1,249 @@
+.supercontainer{
+    display:flex;
+    width:100%;
+    height: 100px;
+    background-color:black;
+    align-items:center;
+}
+.home{
+    margin-left:10px;
+    width:90px;
+    height:80px;
+    justify-content:center;
+}
+.container1{
+    justify-content:center;
+    color:white;
+    display:flex;
+    margin-left:50%;
+    width: 200px;
+}
+.container2{
+    color:white;
+    display:flex;
+    margin-left:2%;
+    width: 200px;
+    justify-content:center;
+}
+.container3{
+    color:white;
+    display:flex;
+    margin-left:2%;
+    margin-right:2%;
+    width: 200px;
+    justify-content:center;
+}
+.link{
+    text-decoration:none;
+}
+.home img:hover{
+    width:75px;
+    height:65px;
+    border-radius:48px;
+}
+.container1:hover, .container2:hover, .container3:hover{
+    font-size:larger;
+    text-decoration:underline;
+    border-color:white;
+    background-color:darkgray;
+    border-radius:25px;
+}
+
+
+
+
+.link a:link, a:active, a:visited{
+    color: white;
+}
+
+
+.header{
+    background-color:black;
+    color:white;
+    margin:20px;
+    margin-left:30%;
+    margin-right:30%;
+    text-align:center;
+    border-radius:10px;
+}
+
+
+.contentHobby{
+    background-color:lightgray;
+    margin-left:50px;
+    margin-right:50px;
+    padding:50px;
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    border:5px solid black;
+    border-radius:10px;
+}
+
+
+.games{
+    position:relative;
+    justify-content:center;
+}
+.container{
+    width:850px;
+    height:350px;
+    overflow:hidden;
+    position:relative;
+    border-color:black;
+    border-radius:10px;
+}
+.container img{
+    width:100%;
+    height:auto;
+    position:absolute;
+    display:none;
+    top:0;
+    left:0;
+}
+#game1{
+    display:block;
+}
+.container img:target {
+display: block; 
+}
+
+
+.slider{
+    display:flex;
+    font-size:xx-large;
+    justify-content:center;
+}
+.slider a{
+    text-decoration:none;
+}
+.slider a:hover{
+    color:darkslategray;
+}
+
+
+.slider a:active{
+color: gray;
+}
+
+.caption{
+    display: flex; /* Hide text by default */
+    position: absolute; /* Position it relative to the background container */
+    bottom: 100px; /* Position slightly above the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center it horizontally */
+    background-color: white; /* Semi-transparent background */
+    color: black; /* Text color */
+    padding: 10px;
+    border-radius: 10px;
+}
+.container:hover{
+    width:1000px;
+    height:450px;
+}
+.game:hover .caption{
+    opacity:.3;
+    bottom:100px;
+}
+
+
+.contentHobby2{
+    background-color:lightgray;
+    margin-left:50px;
+    margin-right:50px;
+    padding:50px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    border:5px solid black;
+    border-radius:10px;
+}
+.badminton{
+    justify-content:center;
+    position:relative;
+}
+.containers2{
+    width:850px;
+    height:450px;
+    overflow:hidden;
+    position:relative;
+    border-color:black;
+    border-radius:10px;
+}
+.containers2 img{
+    width:100%;
+    height:auto;
+    position:absolute;
+    display:none;
+    top:0;
+    left:0;
+}
+#badmin1{
+    display:block;
+}
+.containers2 img:target {
+display: block; 
+}
+
+
+.slider2{
+    display:flex;
+    font-size:xx-large;
+    justify-content:center;
+}
+.slider2 a{
+    text-decoration:none;
+}
+.slider2 a:hover{
+    color:darkslategray;
+}
+
+
+.slider2 a:active{
+color: gray;
+}
+
+.caption2{
+    display: flex; /* Hide text by default */
+    position: absolute; /* Position it relative to the background container */
+    bottom: 100px; /* Position slightly above the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center it horizontally */
+    background-color: white; /* Semi-transparent background */
+    color: black; /* Text color */
+    padding: 10px;
+    border-radius: 10px;
+}
+.containers2:hover{
+    width:1000px;
+    height:550px;
+}
+.badminton:hover .caption2{
+    opacity:.3;
+    bottom:100px;
+}
+.contacts{
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:100px;
+    position:absolute;
+    margin-top:5%;
+    z-index:-2;
+    align-items:center;
+}
+.contacts img{
+    width:30px;
+}
+.contacts a{
+    text-decoration:none;
+    color:white;
+}
+.contacts div{
+    width:50px;
+    margin:50px;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+}

@@ -1,0 +1,293 @@
+body{
+    z-index:10;
+}
+.supercontainer{
+    display:flex;
+    width:100%;
+    height: 100px;
+    background-color:black;
+    align-items:center;
+}
+.home{
+    margin-left:10px;
+    width:90px;
+    height:80px;
+    justify-content:center;
+}
+.container1{
+    justify-content:center;
+    color:white;
+    display:flex;
+    margin-left:50%;
+    width: 200px;
+}
+.container2{
+    color:white;
+    display:flex;
+    margin-left:2%;
+    width: 200px;
+    justify-content:center;
+}
+.container3{
+    color:white;
+    display:flex;
+    margin-left:2%;
+    margin-right:2%;
+    width: 200px;
+    justify-content:center;
+}
+.link{
+    text-decoration:none;
+}
+.home img:hover{
+    width:75px;
+    height:65px;
+    border-radius:48px;
+}
+.container1:hover, .container2:hover, .container3:hover{
+    font-size:larger;
+    text-decoration:underline;
+    border-color:white;
+    background-color:darkgray;
+    border-radius:25px;
+}
+
+
+.link a:link, a:active, a:visited{
+    color: white;
+}
+
+.header{
+    background-color:black;
+    color:white;
+    margin:20px;
+    margin-left:30%;
+    margin-right:30%;
+    text-align:center;
+    border-radius:10px;
+}
+
+
+
+.contentHome{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    z-index:-1;
+}
+.contentHome:hover .homeImage{
+    opacity: 0.5;
+    filter:blur(3px);
+}
+.contentHome:hover .homeParagraph{
+    opacity: 0.5;
+    filter:blur(3px);
+}
+.contentHome:hover .header{
+    opacity: 0.5;
+    filter:blur(3px);
+}
+.homeParagraph{
+    background-color:lightgray;
+    width:800px;
+    height:300px;
+    margin-left:30%;
+    margin-right:50px;
+    margin-top:5%;
+    padding:50px;
+    text-align:center;
+    position:fixed;
+    z-index:1;
+    font-size:larger;
+}
+.name{
+    color:darkblue;
+    font-weight:900;
+}
+.contentHome .homeParagraph:hover{
+    width:1000px;
+    height:400px;
+    margin-right:20%;
+    z-index:2;
+    font-size:x-large;
+    opacity:1;
+    filter:blur(0px);
+}
+
+.homeImage{
+    margin-left:50px;
+    margin-right:70%;
+    margin-top:5%;
+    position:fixed;
+    border-radius:400px;
+    width:400px;
+    z-index:1;
+}
+.contentHome .homeImage:hover{
+    width:500px;
+    border-radius:500px;
+    margin-left:10%;
+    z-index:2;
+    opacity:1;
+    filter:blur(0px);
+}
+
+
+
+.contentAboutMe{
+    background-color:lightgray;
+    height:450px;
+    margin-left:50px;
+    margin-right:50px;
+    padding:50px;
+    font-size:larger;
+    text-align:center;
+}
+.aboutMeImage{
+    margin-top:15px;
+    width:350px;
+    border-radius:100px;
+}
+
+
+
+.contentEducation{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    background-color:lightgray;
+    margin-left:50px;
+    margin-right:50px;
+    padding:20px;
+    flex-direction:column;
+    border:5px solid black;
+    border-radius:10px;
+}
+.contentEducation a{
+    text-decoration:none;
+    color:black;
+}
+.elementary{
+    border-bottom:5px double black;
+    padding:10px;
+}
+.description{
+    background-color:white;
+    border-radius:10px;
+}
+.elementaryLink{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+.guide{
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.elementaryImage{
+    width:850px;
+    height:550px;
+    background-image:url(binusEL.jpg)
+}
+.elementaryImage {
+    background-size:cover
+}
+.elementaryImage:hover{
+    width:1024px;
+    height:768px;
+}
+
+.primary{
+    border-bottom:5px double black;
+    padding:10px;
+}
+.description2{
+    background-color:white;
+    border-radius:10px;
+}
+.primaryLink{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+.guide{
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.primaryImage{
+    width:850px;
+    height:550px;
+    background-image:url(ipeka.jpg)
+}
+.primaryImage {
+    background-size:cover
+}
+.primaryImage:hover{
+    width:1024px;
+    height:768px;
+}
+
+.uni{
+    padding:10px;
+}
+.description3{
+    background-color:white;
+    border-radius:10px;
+}
+.uniLink{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+.guide{
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.uniImage{
+    width:850px;
+    height:550px;
+    background-image:url(binusuni.jpg)
+}
+.uniImage {
+    background-size:cover
+}
+.uniImage:hover{
+    width:1024px;
+    height:768px;
+}
+
+
+
+
+
+.contacts{
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:100px;
+    position:absolute;
+    margin-top:30%;
+    z-index:-2;
+    align-items:center;
+}
+.contacts img{
+    width:30px;
+}
+.contacts a{
+    text-decoration:none;
+    color:white;
+}
+.contacts div{
+    width:50px;
+    margin:50px;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+}
+#contacts{
+    margin-top:5%;
+}
